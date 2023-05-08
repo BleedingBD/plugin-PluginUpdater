@@ -1,0 +1,16 @@
+{
+    "extends": "@tsconfig/recommended/tsconfig.json",
+    "include": ["src/**/*"],
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "target": "ESNext",
+        "esModuleInterop": true,
+        "jsx": "react",
+        "jsxFactory": "BdApi.React.createElement",
+        "jsxFragmentFactory": "BdApi.React.Fragment",
+        "outDir": "dist",
+        "declaration": false,
+        "baseUrl": "src",
+        "moduleResolution": "node"
+    }
+}
